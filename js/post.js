@@ -19,8 +19,10 @@ Post.prototype = {
         </a>
         <h2 id="post-${this.id}-title">${this.title}</h2>
         <p id="post-${this.id}-snippet">${this.snippet}</p>
-        <a href="${this.url}">VIEW FULL STORY</a>
-        <div class="tags-d" id="post-${this.id}-tags" data-tag="${this.name}">
+        <a href="${this.url}">read article</a>
+        <div class="tags-line">
+          <div class="line"><br></div>
+          <div class="tags-d" id="post-${this.id}-tags" > </div>
         </div>
       </div>
     `

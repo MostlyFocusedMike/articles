@@ -1,23 +1,65 @@
 #all-posts-d {
   display: flex;
+  align-items: flex-start;
   flex-wrap: wrap;
   justify-content: center; }
 
 html, body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: "Helvetica Neue"; }
 
 h1 {
   color: green; }
 
-.post-d {
-  border: 2px solid black;
-  margin: 1rem; }
-
-img {
+a {
+  font-style: italic;
+  text-align: center;
   width: 100%;
-  display: block;
-  margin: 1rem auto; }
+  display: inline-block; }
+  a:link {
+    color: #5CA6E5; }
+  a:visited {
+    color: #5CA6E5; }
+  a:hover {
+    color: #FFC84D; }
+  a:active {
+    color: #FFEF33; }
+
+#all-posts-d .post-d {
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.3);
+  margin: 1rem;
+  width: 20rem;
+  min-height: 29rem;
+  position: relative; }
+  #all-posts-d .post-d img {
+    width: 100%;
+    height: 11rem;
+    display: block;
+    margin: 0 auto 1rem; }
+  #all-posts-d .post-d h2 {
+    font-weight: 400;
+    margin: 1rem; }
+  #all-posts-d .post-d p {
+    font-weight: 200;
+    margin: 1rem;
+    text-align: center; }
+  #all-posts-d .post-d .tags-line {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: .5rem; }
+    #all-posts-d .post-d .tags-line .line {
+      width: 80%;
+      height: .1rem;
+      margin: 1rem auto .5rem;
+      background: #EAEAEA; }
+    #all-posts-d .post-d .tags-line .tags-d button {
+      background: #5CA6E5;
+      color: white;
+      border: none;
+      padding: .3rem .7rem;
+      margin: .5rem; }
 
 .select-style {
   border: 1px solid #ccc;
@@ -34,8 +76,5 @@ img {
 
 .select-style select:focus {
   outline: none; }
-
-.post-d {
-  width: 370px; }
 
 /*# sourceMappingURL=style.css.map */

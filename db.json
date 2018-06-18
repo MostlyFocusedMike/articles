@@ -2,7 +2,7 @@
    "posts": [
       {
          "id": 1,
-         "title": "Did you know PHP has its own server?",
+         "title": "Did You Know PHP Has Its Own Server?",
          "url": "https://medium.com/@mikecronin92/did-you-know-php-has-its-own-server-9071d5d578e1",
          "img": "https://cdn-images-1.medium.com/max/1600/1*fYjaFCy1t8Fv2GcF2vLeZA.jpeg",
          "snippet": "How to set up PHP's built in server with a few lines in your console.",
@@ -10,7 +10,7 @@
       },
       {
          "id": 2,
-         "title": "Using SQL Join statements in Join tables",
+         "title": "Using SQL Join Statements In Join Tables",
          "url": "https://medium.com/@mikecronin92/demonstrating-multiple-sql-joins-82481a7c16d2",
          "img": "https://cdn-images-1.medium.com/max/2000/1*Wu2ZqerQQp0OvvTSUwjHwQ.png",
          "snippet": "An explanation of why sql join tables are so powerful for dynamic databases.",
@@ -18,7 +18,7 @@
       },
       {
         "id": 3,
-        "title": "What is a 'many to many' relationship?",
+        "title": "What Is A 'Many To Many' Relationship?",
         "url": "https://medium.com/@mikecronin92/what-is-a-many-to-many-relationship-5be38906f8e3",
         "img": "https://cdn-images-1.medium.com/max/1600/1*TnckjLLQzCeOLy5oKU4_ig.jpeg",
         "snippet": "A language agnostic look at 'many to many' relationships.",
@@ -26,19 +26,75 @@
       },
       {
         "id": 4,
-        "title": "5 steps that set up a 'many to many' relationship in Ruby",
+        "title": "5 Steps That Set Up A 'Many To Many' Relationship In Ruby",
         "url": "https://medium.com/@mikecronin92/5-steps-that-set-up-a-many-to-many-relationship-1594d4ce3b53",
         "img": "https://cdn-images-1.medium.com/max/1600/1*mJN1wS4Z9d7OZTzK-_rWsw.jpeg",
         "snippet": "A look at coding a 'many to many' relationship in ruby without a framework",
-        "tags": ["ruby", "web dev"]
+        "tags": ["ruby", "databases"]
       },
       {
         "id": 5,
-        "title": "Make RSpec output HTML",
+        "title": "Make RSpec Output HTML By Editing Your Bash Profile",
         "url": "https://medium.com/@mikecronin92/useful-bash-aliases-and-functions-for-rspec-c363c83f6a4c",
         "img": "img/default",
-        "snippet": "A guide to setup your bash profile to have RSpec output in html",
-        "tags": ["ruby"]
+        "snippet": "Test Your Ruby Code in Style With This Helpful Setup Guide",
+        "tags": ["ruby", "bash"]
+      },
+      {
+        "id": 6,
+        "title": "Great Bash Stuff For Flatiron Students",
+        "url": "https://medium.com/@mikecronin92/great-bash-stuff-for-flatiron-students-68a33980a428",
+        "img": "img/default",
+        "snippet": "A lot of command line shortcuts to speed up Flatiron labs",
+        "tags": ["bash"]
+      },
+      {
+        "id": 7,
+        "title": "The Basics Of The :as Option In Rails",
+        "url": "https://medium.com/@mikecronin92/the-basics-of-the-as-option-in-rails-ca28de7e3303",
+        "img": "img/default",
+        "snippet": "Understanding when and why you would want custom path helpers",
+        "tags": ["ruby", "rails"]
+      },
+      {
+        "id": 8,
+        "title": "Promises, Promises: Understanding The Basics Of JS Promise Objects",
+        "url": "https://medium.com/@mikecronin92/promises-promises-understanding-the-basics-of-js-promise-objects-dd5c656f2db4",
+        "img": "img/default",
+        "snippet": "An in depth look at the basic syntax of the new ES2015 Promise syntax",
+        "tags": ["js", "web dev"]
+      },
+      {
+        "id": 9,
+        "title": "I Promise I’ll Get To It: JS Promise Objects And Asynchronous Events",
+        "url": "https://medium.com/@mikecronin92/i-promise-ill-get-to-it-js-promise-objects-and-asynchronous-events-afdc16951e67",
+        "img": "img/default",
+        "snippet": "Understanding how Promises deal with asynchronouse events",
+        "tags": ["js", "web dev", "databases"]
+      },
+      {
+        "id": 10,
+        "title": "Understanding The JS Fetch API, And How It Uses Promises",
+        "url": "https://itnext.io/that-data-looks-so-fetching-on-you-understanding-the-js-fetch-api-880eae0c8d25",
+        "img": "https://cdn-images-1.medium.com/max/2000/1*C5b9mNOi7sKN0-LW-66DYw.jpeg",
+        "snippet": "Using fetch to send and retrive data from databases with the power of Promises",
+        "tags": ["js", "web dev", "databases"]
+      },
+      {
+        "id": 11,
+        "title": "Coding the 5 Basic RESTful actions for JavaScript",
+        "url": "https://itnext.io/coding-the-5-basic-restful-actions-for-javascript-c25279483e4f",
+        "img": "https://cdn-images-1.medium.com/max/2000/1*7nSQObbqsoKZmjtMHAhDXA.jpeg",
+        "snippet": "Learn how to get and send data to your database from the front end",
+        "tags": ["js", "web dev", "databases"]
+      },
+      {
+        "id": 12,
+        "title": "Using JSON Server to Create a Restful Server in 5 seconds",
+        "url": "https://itnext.io/using-json-server-to-create-a-restful-server-in-5-seconds-78b85ccf832b",
+        "img": "https://cdn-images-1.medium.com/max/2000/1*6_3lmPQVifvrhy3qQl7dLg.jpeg",
+        "snippet": "Use the Node package JSON Server to practice fetch requests",
+        "tags": ["js", "web dev", "databases"]
       }
    ],
    "tags": [
@@ -65,6 +121,14 @@
       {
         "name": "databases",
         "id": 6 
+      },
+      {
+        "name": "bash",
+        "id": 7
+      },
+      {
+        "name": "rails",
+        "id": 8
       }
    ]
 }
