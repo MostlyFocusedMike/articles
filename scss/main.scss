@@ -30,8 +30,8 @@ html, body {
 a {
   font-style: italic;
   text-align: center;
-  width: 100%;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   transition: color 150ms;
   &:link {
     color: #5CA6E5;
