@@ -7,17 +7,30 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
   </head>
   <body>
-    <h1>Blogs</h1>
+    <header>
+      <h1>my articles</h1>
+    </header>
     <div id="sorting-buttons-d">
       <form action="post">
-        <label for="sorting-buttons">Show me articles about</label>
-        <div class="select-style">
-        <select id="sorting-buttons" >
-          <option value="all">Anything</option>
-          <option value="ruby">Ruby</option>
-          <option value="js">Javascript</option>
-          <option value="databases">Databases</option>
-        </select>
+        <div id="select-holder">
+          <label for="sorting-buttons">find articles about</label>
+          <select id="sorting-buttons" >
+            <option value="all">Anything</option>
+            <option value="ruby">Ruby</option>
+            <option value="js">Javascript</option>
+            <option value="databases">Databases</option>
+          </select>
+          <div id="fake-border">
+            <br />
+          </div>
+          <div id="arrows-holder">
+            <div id="arrows">
+              <br />
+            </div>
+            <div id="cutter">
+              <br />
+            </div>
+          </div>
         </div>
         <br />
          <input type="submit" name="" id="" value="Sort Articles" />
@@ -27,6 +40,7 @@
 
       
     </div>
+    <button type="submit" id="show-all">show all articles</button>
     <script src="js/adapters.js" charset="utf-8"></script>
     <script src="js/tag.js" charset="utf-8"></script>
     <script src="js/post.js" charset="utf-8"></script>

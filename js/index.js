@@ -51,6 +51,10 @@ allPostsEl.addEventListener("click", (e) => {
   }
 })
 
+document.querySelector("#show-all").addEventListener("click", (e) => {
+  Post.renderAll()
+})
+
 
 
 // render Page
