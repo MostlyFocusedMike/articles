@@ -52,7 +52,7 @@
         "id": 7,
         "title": "The Basics Of The :as Option In Rails",
         "url": "https://medium.com/@mikecronin92/the-basics-of-the-as-option-in-rails-ca28de7e3303",
-        "img": "img/default",
+        "img": "https://cdn-images-1.medium.com/max/2000/1*SxeGQmhnkqizW6jJirIcLg.jpeg",
         "snippet": "Understanding when and why you would want custom path helpers",
         "tags": ["ruby", "rails"]
       },
@@ -95,6 +95,14 @@
         "img": "https://cdn-images-1.medium.com/max/2000/1*6_3lmPQVifvrhy3qQl7dLg.jpeg",
         "snippet": "Use the Node package JSON Server to practice fetch requests",
         "tags": ["js", "web dev", "databases"]
+      },
+      {
+      "id": 13,
+        "title": "How To Use Object Destructuring in Modern Javascript",
+        "url": "https://itnext.io/how-to-use-object-destructuring-in-modern-javascript-59758ebfb778",
+        "img": "https://cdn-images-1.medium.com/max/2000/1*Fl0TH91l1azcJNDv_tVOUA.jpeg",
+        "snippet": "Destructuring lets you access an object’s keys more easily",
+        "tags": ["js", "web dev"]
       }
    ],
    "tags": [

@@ -74,27 +74,32 @@ form {
       margin: 0;
       padding: 0;
       position: absolute;
+      color: #777;
+      font-weight: 200;
       top: .15rem;
-      left: .5rem;
+      left: .9rem;
       font-size: 1.4rem;
     }
     select {
         box-shadow: none;
-        padding: 0;
-        width: 40%;
-        text-align: center;
-        background: none;
+        font-weight: 200;
+        width: 37%;
+        -webkit-background: white;
+        background: white;
         border: none;
+        padding:1px 1px 1px 5px;
+
+        -webkit-appearance: none;
+        -webkit-border-radius: none;
         border-radius: none;
         display: inline;
         position: absolute;
-        top: .05rem;
-        right: .6rem;
+        top: 1px;
+        right: 1.7rem;
         margin: 0;
         font-size: 1.4rem;
     }
     #fake-border {
-      border: 2px solid #777;
       position: absolute;
       top: 0;
       right: 1rem;
@@ -105,36 +110,38 @@ form {
     #arrows-holder {
       background: #5CA6E5;
       width: 2rem;
-      height: 2rem;
+      height: 2.05rem;
       position: absolute;
-      right: 0rem;
-      top: 0;
+      right: 1rem;
+      top: -1px;
       border-radius: 0 100% 100% 0;
       pointer-events: none;
         margin: 0;
         padding: 0;
       #arrows {
-        margin: 0;
-        padding: 0;
-        background: white;
-        width: .8rem;
-        height: .8rem;
-        position: absolute;
-        top: .6rem;
-        right: .65rem;
-        transform: rotate(45deg);
-      }
-      #cutter {
-        margin: 0;
-        padding: 0;
-        background: #5CA6E5;
-        width: 1.6rem;
-        height: .2rem;
-        position: absolute;
-        top: .9rem;
-        right: .3rem;
-      }
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
 
+        border-bottom: 8px solid white;
+        position: absolute;
+        top: .4rem;
+        right: .55rem;
+        &::after {
+          content: "";
+          color: #000;
+          width: 0; 
+          height: 0; 
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;
+          
+          border-top: 8px solid white;
+          position: absolute;
+          top: .8rem;
+          right: -.5rem;
+        }
+      }
     }
   }
 }

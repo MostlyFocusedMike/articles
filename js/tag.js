@@ -32,11 +32,3 @@ Tag.findTag = function(tagName) {
     return tag.name === tagName
   })
 }
-
-// Tag.renderButtons = function(store) {
-//   store.tags.map(tag => {
-//     tag.renderButton()
-//   })
-// }
-
-
