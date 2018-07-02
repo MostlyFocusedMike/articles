@@ -21,11 +21,14 @@ $col: green;
     background: #6EB0E8;
   }
 }
+%font {
+  font-family: sans-serif;
+}
 html, body {
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue";
   font-size: 16px;
+  @extend %font;
 }
 a {
   font-style: italic;
@@ -75,14 +78,14 @@ form {
       padding: 0;
       position: absolute;
       color: #777;
+      @extend %font;
       font-weight: 200;
-      top: .15rem;
-      left: .9rem;
+      top: .25rem;
+      left: .5rem;
       font-size: 1.4rem;
     }
     select {
         box-shadow: none;
-        font-weight: 200;
         width: 37%;
         -webkit-background: white;
         background: white;
@@ -112,7 +115,7 @@ form {
       width: 2rem;
       height: 2.05rem;
       position: absolute;
-      right: 1rem;
+      right: .4rem;
       top: -1px;
       border-radius: 0 100% 100% 0;
       pointer-events: none;

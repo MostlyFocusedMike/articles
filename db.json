@@ -12,7 +12,7 @@
          "id": 2,
          "title": "Using SQL Join Statements In Join Tables",
          "url": "https://medium.com/@mikecronin92/demonstrating-multiple-sql-joins-82481a7c16d2",
-         "img": "img/default",
+         "img": "img/default.jpg",
          "snippet": "An explanation of why sql join tables are so powerful for dynamic databases.",
          "tags": ["sql","databases", "web dev"]
       },
@@ -28,7 +28,7 @@
         "id": 4,
         "title": "5 Steps That Set Up A 'Many To Many' Relationship In Ruby",
         "url": "https://medium.com/@mikecronin92/5-steps-that-set-up-a-many-to-many-relationship-1594d4ce3b53",
-        "img": "img/default",
+        "img": "img/default.jpg",
         "snippet": "A look at coding a 'many to many' relationship in ruby without a framework",
         "tags": ["ruby", "databases"]
       },
@@ -36,7 +36,7 @@
         "id": 5,
         "title": "Make RSpec Output HTML By Editing Your Bash Profile",
         "url": "https://medium.com/@mikecronin92/useful-bash-aliases-and-functions-for-rspec-c363c83f6a4c",
-        "img": "img/default",
+        "img": "img/default.jpg",
         "snippet": "Test Your Ruby Code in Style With This Helpful Setup Guide",
         "tags": ["ruby", "bash"]
       },
@@ -44,7 +44,7 @@
         "id": 6,
         "title": "Great Bash Stuff For Flatiron Students",
         "url": "https://medium.com/@mikecronin92/great-bash-stuff-for-flatiron-students-68a33980a428",
-        "img": "img/default",
+        "img": "img/default.jpg",
         "snippet": "A lot of command line shortcuts to speed up Flatiron labs",
         "tags": ["bash"]
       },
@@ -60,7 +60,7 @@
         "id": 8,
         "title": "Promises, Promises: Understanding The Basics Of JS Promise Objects",
         "url": "https://medium.com/@mikecronin92/promises-promises-understanding-the-basics-of-js-promise-objects-dd5c656f2db4",
-        "img": "img/default",
+        "img": "img/default.jpg",
         "snippet": "An in depth look at the basic syntax of the new ES2015 Promise syntax",
         "tags": ["js", "web dev"]
       },
@@ -68,7 +68,7 @@
         "id": 9,
         "title": "I Promise I’ll Get To It: JS Promise Objects And Asynchronous Events",
         "url": "https://medium.com/@mikecronin92/i-promise-ill-get-to-it-js-promise-objects-and-asynchronous-events-afdc16951e67",
-        "img": "img/default",
+        "img": "img/default.jpg",
         "snippet": "Understanding how Promises deal with asynchronous events",
         "tags": ["js", "web dev", "databases"]
       },
