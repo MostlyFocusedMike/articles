@@ -86,7 +86,7 @@ form {
     }
     select {
         box-shadow: none;
-        width: 37%;
+        width: 39%;
         -webkit-background: white;
         background: white;
         border: none;
@@ -98,7 +98,7 @@ form {
         display: inline;
         position: absolute;
         top: 1px;
-        right: 1.7rem;
+        right: 1rem;
         margin: 0;
         font-size: 1.4rem;
     }
@@ -220,8 +220,10 @@ button, input[type="submit"] {
       .tags-d {
         button {
           @extend %basic-button;
-          font-size: .8rem;
-          display: inline;
+          font-size: .7rem;
+          padding: .25rem .4rem;
+          margin: .25rem !important;
+          display: inline-block;
         }
       }
     }

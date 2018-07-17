@@ -1,14 +1,9 @@
-console.log("index");
-// document.addEventListener("DOMContentLoaded", init)
-// make page
-
-
 // functions 
 function loadPosts() {
   PostAdapter.getAll()
-    .then(dbPosts => 
-      dbPosts.map(dbPost => new Post(dbPost, store))
-    )
+    .then(dbPosts => {
+      return dbPosts.map(dbPost => new Post(dbPost, store))
+    })
     .then(memPosts => 
       memPosts.map(memPost => {
         memPost.renderSelf()
@@ -19,15 +14,9 @@ function loadPosts() {
 
 function loadTags() {
   TagAdapter.getAll()
-    .then(dbTags => {
-      dbTags.map(dbTag => new Tag(dbTag, store))
-      // Tag.renderButtons(store)
-    })
+    .then(dbTags => dbTags.map(dbTag => new Tag(dbTag, store)))
+    .then(r => loadPosts())
 }
-
-
-
-
 
 // variables 
 const store = {posts: [], tags: []}
@@ -60,7 +49,6 @@ document.querySelector("#show-all").addEventListener("click", (e) => {
 // render Page
 function init(store) {
   loadTags()
-  loadPosts()
 }
 init(store)
 

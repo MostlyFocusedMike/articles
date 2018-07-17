@@ -70,7 +70,7 @@ form {
       font-size: 1.4rem; }
     form #select-holder select {
       box-shadow: none;
-      width: 37%;
+      width: 39%;
       -webkit-background: white;
       background: white;
       border: none;
@@ -81,7 +81,7 @@ form {
       display: inline;
       position: absolute;
       top: 1px;
-      right: 1.7rem;
+      right: 1rem;
       margin: 0;
       font-size: 1.4rem; }
     form #select-holder #fake-border {
@@ -194,7 +194,9 @@ button, input[type="submit"] {
         margin: 1rem auto .5rem;
         background: #EAEAEA; }
       #all-posts-d .post-d .tags-line .tags-d button {
-        font-size: .8rem;
-        display: inline; }
+        font-size: .7rem;
+        padding: .25rem .4rem;
+        margin: .25rem !important;
+        display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */

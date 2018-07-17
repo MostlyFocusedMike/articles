@@ -103,7 +103,24 @@
         "img": "https://cdn-images-1.medium.com/max/2000/1*Fl0TH91l1azcJNDv_tVOUA.jpeg",
         "snippet": "Destructuring lets you access an object’s keys more easily",
         "tags": ["js", "web dev"]
+      },
+      {
+      "id": 14,
+        "title": "Building a Dynamic, Controlled Form with React",
+        "url": "https://medium.com/@mikecronin92/building-a-dynamic-controlled-form-in-react-together-794a44ee552c",
+        "img": "https://cdn-images-1.medium.com/max/2000/1*3JEZb8N5h3QJJc7Iy0hY_g.jpeg",
+        "snippet": "A code along that shows you how to make dynamic forms using React",
+        "tags": ["js", "web dev", "react", "code-along"]
+      },
+      {
+      "id": 15,
+        "title": "A Quickstart Guide to Using Serializer With Your Ruby on Rails API",
+        "url": "https://itnext.io/a-quickstart-guide-to-using-serializer-with-your-ruby-on-rails-api-d5052dea52c5",
+        "img": "https://cdn-images-1.medium.com/max/2000/1*HWrhA3nQ6PnPInnU0CwI8w.jpeg",
+        "snippet": "A code along that gives you the basics of the Serializer gem",
+        "tags": ["ruby", "web dev", "rails", "code-along"]
       }
+
    ],
    "tags": [
       {
@@ -137,6 +154,14 @@
       {
         "name": "rails",
         "id": 8
+      },
+      {
+        "name": "react",
+        "id": 9
+      },
+      {
+        "name": "code-along",
+        "id": 10
       }
    ]
 }
