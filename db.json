@@ -119,8 +119,23 @@
         "img": "https://cdn-images-1.medium.com/max/2000/1*HWrhA3nQ6PnPInnU0CwI8w.jpeg",
         "snippet": "A code along that gives you the basics of the Serializer gem",
         "tags": ["ruby", "web dev", "rails", "code-along"]
-      }
-
+      },
+      {
+      "id": 16,
+        "title": "My Thoughts on Coding Bootcamps",
+        "url": "https://medium.com/@mikecronin92/thoughts-on-coding-bootcamps-now-that-ive-graduated-c6592094658",
+        "img": "https://cdn-images-1.medium.com/max/2000/1*Nyv1HffTKPZlxRaozkvDQw.jpeg",
+        "snippet": "After graduating and working for a few months I look back at my bootcamp experience",
+        "tags": ["web dev", "js", "ruby", "sql", "rails", "bash"]
+      },
+      {
+        "id": 17,
+          "title": "A Beginner’s Guide to Understanding JavaScript Closures",
+          "url": "https://medium.com/@mikecronin92/a-beginners-guide-to-understanding-javascript-closures-b5eb57fdbeb4",
+          "img": "https://cdn-images-1.medium.com/max/1600/1*AJWhia2_QH77RYEWhsLsWA.jpeg",
+          "snippet": "A helpful guide on closures for new developers",
+          "tags": ["web dev", "js"]
+        }
    ],
    "tags": [
       {
